@@ -56,8 +56,8 @@ def main():
     cm = CustomerManagement()
 
     # Adding some customers
-    cm.add_customer(Customer(1, "John Doe", "john.doe@example.com", "1234567890"))
-    cm.add_customer(Customer(2, "Jane Smith", "jane.smith@example.com", "9876543210"))
+    cm.add_customer(Customer(1, "rigin", "john.doe@example.com", "1234567890"))
+    cm.add_customer(Customer(2, "Jackson", "jack.smith@example.com", "9876543210"))
     
     # Listing all customers
     print("\nList of Customers:")
@@ -68,7 +68,7 @@ def main():
     cm.view_customer(1)
 
     # Updating a customer's details
-    cm.update_customer(2, email="jane.newemail@example.com", phone="5551234567")
+    cm.update_customer(2, email="jack.newemail@example.com", phone="5551234567")
 
     # Deleting a customer
     cm.delete_customer(1)
